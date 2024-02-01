@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "AnyImageKit",
     defaultLocalization: "en",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v13), .macOS(.v10_14)],
     products: [
         .library(name: "AnyImageKit", targets: ["AnyImageKit"]),
     ],
